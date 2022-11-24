@@ -1,19 +1,19 @@
 public class Lampadina {
     
-    private String stato;
+    private int maxUse;
     private String interruttore;
 
     public Lampadina(){
-        this.stato = stato;
+        this.maxUse = 40;
         this.interruttore = interruttore;
     }
 
-    public void stato(){
+    public  void maxUse(){
 
     }
 
-    public void click(){
-        
+    public  void click(){
+
     }
 
 }
