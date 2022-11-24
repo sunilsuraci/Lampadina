@@ -13,16 +13,23 @@ public class Lampadina {
     }
 
     //metodi
+
+    //per accendere o spegnere
     public void click(){
-       if(light.equals(light)) {
+       if(countClick == maxUse) {
+        this.light = "rotta";
+       } else if (light.equals(light)){
         this.light = "spenta";
-       }else {
+       } else{
         this.light = "accesa";
        }
     }
 
-    public static void stato(){
+    public  void stato(){
         
+        if(countClick == maxUse){
+
+        }
     }
 
 }
