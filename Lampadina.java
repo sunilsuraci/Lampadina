@@ -1,19 +1,24 @@
 public class Lampadina {
     
     private int maxUse;
-    private String interruttore;
+    private static String interruttore;
 
     public Lampadina(){
         this.maxUse = 40;
         this.interruttore = interruttore;
     }
 
-    public  void maxUse(){
-
+     
+    public static void click(){
+        if(interruttore =="Spento"){
+            interruttore = "Acceso";
+        }else{
+            interruttore ="Acceso";
+        }
     }
 
-    public  void click(){
-
+    public static void stato(){
+        
     }
 
 }
