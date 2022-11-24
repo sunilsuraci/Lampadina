@@ -3,26 +3,26 @@ public class Lampadina {
     //Attributi
     private int maxUse;//max volte che può accendersi
     private int countClick;//il numero di click
-    private boolean light;//spenta o accesa
+    private String light;//spenta o accesa
 
     //costruttore
-    public Lampadina( int countClick){
+    public Lampadina( int countClick, String light){
         this.maxUse = 40;
         this.countClick = countClick;
-        this.light = true;
+        this.light = "accesa";
     }
 
-     
+    //metodi
     public void click(){
-        if(this.light == true){
-            light = false;
-        }else{
-            light= false;
-        }
+       if(light.equals(light)) {
+        this.light = "spenta";
+       }else {
+        this.light = "accesa";
+       }
     }
 
     public static void stato(){
-
+        
     }
 
 }
